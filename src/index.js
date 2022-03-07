@@ -16,5 +16,5 @@ const getName = x => {
 console.log('getName', getName('zhangsan'));
 
   const change = () => {
-    console.log('change')
+       console.log('change')
    }
