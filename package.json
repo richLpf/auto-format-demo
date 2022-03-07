@@ -26,7 +26,7 @@
     ]
   },
   "lint-staged": {
-    "*": "prettier"
+    "*.{js,jsx,ts,tsx}": ["prettier --write ."]
   },
   "author": "",
   "license": "MIT",
