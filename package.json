@@ -1,0 +1,39 @@
+{
+  "name": "front-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier -w ."
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [
+      {
+        "files": [
+          "./src/index.js"
+        ],
+        "rules": {
+          "no-console": "error"
+        }
+      }
+    ]
+  },
+  "lint-staged": {
+    "*": "prettier"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-plugin-react": "^7.29.3",
+    "lint-staged": "^12.3.5",
+    "prettier": "^2.5.1"
+  }
+}
