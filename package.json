@@ -26,7 +26,7 @@
     ]
   },
   "lint-staged": {
-    "src/*.{js,jsx,ts,tsx}": "prettier --write ."
+    "*.js": "yarn eslint src/index.js"
   },
   "author": "",
   "license": "MIT",
