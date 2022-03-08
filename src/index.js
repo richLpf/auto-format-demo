@@ -16,3 +16,5 @@ const getName = x => {
 console.log('getName', getName('zhangsan'));
 
 console.log("test")
+
+console.log("1111")
