@@ -26,11 +26,12 @@
     ]
   },
   "lint-staged": {
-    "*.js": "yarn eslint src/index.js"
+    "*.js": "prettier -w ."
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "commitlint": "^16.2.1",
     "eslint": "^8.10.0",
     "eslint-plugin-react": "^7.29.3",
     "lint-staged": "^12.3.5",

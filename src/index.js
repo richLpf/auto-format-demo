@@ -13,8 +13,8 @@ const getName = x => {
   return `name:${x}`;
 };
 
-      console.log('getName', getName('zhangsan'));
+console.log('getName', getName('zhangsan'));
 
-  const change = () => {
-       console.log('change')
-   }
+const change = () => {
+  console.log('change');
+};
