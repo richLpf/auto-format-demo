@@ -29,7 +29,7 @@
     "*.js": "prettier -w ."
   },
   "hooks": {
-    "pre-commit": "echo 'test111'"
+    "pre-commit": "eslint --fix"
   },
   "author": "",
   "license": "MIT",
