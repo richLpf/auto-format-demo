@@ -29,7 +29,7 @@
     "*.js": "prettier -w ."
   },
   "hooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "echo 'test111'"
   },
   "author": "",
   "license": "MIT",
