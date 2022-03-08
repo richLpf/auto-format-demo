@@ -30,7 +30,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint --fix"
+      "pre-commit": "yarn prettier"
     }
   },
   "author": "",
