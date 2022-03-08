@@ -28,11 +28,6 @@
   "lint-staged": {
     "*.js": "prettier -w ."
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn prettier"
-    }
-  },
   "author": "",
   "license": "MIT",
   "devDependencies": {
