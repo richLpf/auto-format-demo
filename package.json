@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier -w .",
-    "commit": "git-cz"
+    "commit": "git add . && git-cz"
   },
   "config": {
     "commitizen": {
