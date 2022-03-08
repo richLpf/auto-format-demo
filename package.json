@@ -28,6 +28,9 @@
   "lint-staged": {
     "*.js": "prettier -w ."
   },
+  "hooks": {
+    "pre-commit": "lint-staged"
+  },
   "author": "",
   "license": "MIT",
   "devDependencies": {
@@ -35,6 +38,7 @@
     "commitlint": "^16.2.1",
     "eslint": "^8.10.0",
     "eslint-plugin-react": "^7.29.3",
+    "husky": "^7.0.4",
     "lint-staged": "^12.3.5",
     "prettier": "^2.5.1"
   }
