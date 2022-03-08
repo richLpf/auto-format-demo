@@ -28,8 +28,10 @@
   "lint-staged": {
     "*.js": "prettier -w ."
   },
-  "hooks": {
-    "pre-commit": "eslint --fix"
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint --fix"
+    }
   },
   "author": "",
   "license": "MIT",
