@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier -w .",
-    "commit": "git add . && git-cz"
+    "commit": "git add . && lint-staged && git add . && git-cz"
   },
   "prettier": "@isayme/prettier-config",
   "config": {
@@ -33,7 +33,10 @@
     ]
   },
   "lint-staged": {
-    "*.js": "prettier -w ."
+    "*.js": [
+      "eslint",
+      "prettier -w ."
+    ]
   },
   "author": "",
   "license": "MIT",
