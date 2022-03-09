@@ -8,6 +8,7 @@
     "prettier": "prettier -w .",
     "commit": "git add . && git-cz"
   },
+  "prettier": "@isayme/prettier-config",
   "config": {
     "commitizen": {
       "path": "@commitlint/cz-commitlint"
@@ -47,5 +48,8 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.3.5",
     "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "@isayme/prettier-config": "^0.1.1"
   }
 }

@@ -1,3 +1,3 @@
-const a = 'a';
+const a = 'a'
 
-console.log('a', a);
+console.log('a', a)

@@ -228,6 +228,11 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@isayme/prettier-config@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/@isayme/prettier-config/-/prettier-config-0.1.1.tgz#ed7c5a4fd31881d29365bf6fe25818ca277df4a8"
+  integrity sha512-DukPUI+qmbWztEyBhlTLVFEND9MpriW6ZNCvOUhMR8ARcTGJN40csLkzhq523CKJq7Ra2UTDTxv+gcGZqW0a4g==
+
 "@tsconfig/node10@^1.0.7":
   version "1.0.8"
   resolved "https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.8.tgz#c1e4e80d6f964fbecb3359c43bd48b40f7cadad9"
