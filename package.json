@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier -w .",
-    "commit": "git add . && lint-staged && git-cz"
+    "commit": "git add . && lint-staged --allow-empty && git-cz"
   },
   "prettier": "@isayme/prettier-config",
   "config": {
