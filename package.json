@@ -33,7 +33,7 @@
     ]
   },
   "lint-staged": {
-    "*.js": [
+    "**/*.js": [
       "eslint",
       "prettier -w ."
     ]
