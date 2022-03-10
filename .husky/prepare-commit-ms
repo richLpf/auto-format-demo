@@ -1,6 +1,9 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+echo "test1111"
 echo $1
+echo "test2222"
 echo $2
+echo "test3333"
 echo $@
