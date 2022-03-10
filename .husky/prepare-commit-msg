@@ -2,5 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 echo "test1111, cat $1"
-echo $2
+echo sys.arg[v]
 echo "test3333, $@"
