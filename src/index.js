@@ -8,5 +8,3 @@ function test() {
 }
 
 test()
-
-console.log("test eslint")

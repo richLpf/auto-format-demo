@@ -834,6 +834,11 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
+eslint-config-frontdemo@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/eslint-config-frontdemo/-/eslint-config-frontdemo-1.0.0.tgz#0e8a054d151793b1642245de9fe4aeeec6bce553"
+  integrity sha512-Y7S6xTlh9nA8LN+e9QtecqD/mgVa0b1q4rhSq8TAwRUczbQIWDZs9l7OWBtE8CmhUKsPD05BinZuaXqRYkkOrA==
+
 eslint-plugin-react@^7.29.3:
   version "7.29.3"
   resolved "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.29.3.tgz#f4eab757f2756d25d6d4c2a58a9e20b004791f05"

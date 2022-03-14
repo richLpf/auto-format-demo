@@ -1,3 +1,6 @@
-const a = 'a'
+function getValue() {
+  const a = 'a'
+  return a
+}
 
-console.log('a', a)
+getValue()
