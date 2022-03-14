@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier -w src/*.js",
+    "eslint": "eslint . --fix",
     "commit": "git add . && lint-staged --allow-empty && git-cz"
   },
   "prettier": "prettier-plugin-frontdemo",
@@ -20,14 +21,14 @@
       "node": true,
       "es2021": true
     },
-    "extends": "eslint:recommended",
+    "extends": "frontdemo",
     "overrides": [
       {
         "files": [
           "./src/index.js"
         ],
         "rules": {
-          "no-console": "error"
+          "no-alert": "error"
         }
       }
     ]
@@ -44,7 +45,6 @@
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
     "@commitlint/cz-commitlint": "^16.2.1",
-    "commitizen": "^4.2.4",
     "commitlint": "^16.2.1",
     "eslint": "^8.10.0",
     "eslint-plugin-react": "^7.29.3",
@@ -54,6 +54,6 @@
     "prettier-plugin-frontdemo": "^1.0.0"
   },
   "dependencies": {
-    "@isayme/prettier-config": "^0.1.1"
+    "commitizen": "^4.2.4"
   }
 }

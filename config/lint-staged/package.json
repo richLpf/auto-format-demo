@@ -9,6 +9,9 @@
         "commit": "git add . && lint-staged --allow-empty && git-cz"
     },
     "lint-staged": {
-      "**/*.js": "git status"
+      "*.js": [
+        "eslint --fix",
+        "prettier -w src/*.js"
+      ]
     }
 }
