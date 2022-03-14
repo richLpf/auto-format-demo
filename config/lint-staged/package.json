@@ -1,0 +1,14 @@
+{
+    "name": "front-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prettier": "prettier -w .",
+        "commit": "git add . && lint-staged --allow-empty && git-cz"
+    },
+    "lint-staged": {
+      "**/*.js": "git status"
+    }
+}

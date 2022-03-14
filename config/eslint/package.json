@@ -1,0 +1,25 @@
+{
+    "name": "front-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prettier": "prettier -w .",
+        "eslint": "eslint"
+    },
+    "eslintConfig": {
+        "rules": {
+            "quotes": ["error", "double"]
+        },
+        "overrides": [
+            {
+            "files": ["bin/*.js", "lib/*.js"],
+            "excludedFiles": "*.test.js",
+            "rules": {
+                "quotes": ["error", "single"]
+            }
+            }
+        ]
+    }
+}

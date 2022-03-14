@@ -1,0 +1,12 @@
+{
+    "name": "front-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    }
+}
