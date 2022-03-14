@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: yarn install
-      - run: eslint . --fix
+      - run: yarn eslint . --fix
       
   prettier:
     runs-on: ubuntu-latest
     steps:
       - run: echo "check current commit is prettier"
-      - run: prettier --check "src/**/*.js"
+      - run: yarn prettier --check "src/**/*.js"
