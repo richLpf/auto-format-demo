@@ -21,7 +21,10 @@
       "node": true,
       "es2021": true
     },
-    "extends": "frontdemo"
+    "extends": "frontdemo",
+    "rules": {
+      "no-console": "error"
+    }
   },
   "lint-staged": {
     "**/*.js": [
