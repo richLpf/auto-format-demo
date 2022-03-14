@@ -16,4 +16,4 @@ jobs:
       - uses: actions/setup-node@v2
       - run: echo "check current commit is prettier"
       - run: yarn install
-      - run: yarn prettier --check "src/**/*.js"
+      - run: yarn prettier --check "*.js"
