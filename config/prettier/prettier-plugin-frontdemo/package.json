@@ -1,0 +1,11 @@
+{
+  "name": "prettier-plugin-frontdemo",
+  "version": "1.0.0",
+  "description": "prettier demo插件",
+  "main": ".prettierrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
