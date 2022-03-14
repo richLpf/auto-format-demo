@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-frontdemo",
+  "version": "1.0.0",
+  "description": "一个eslint共享包",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richLpf/auto-format-demo/tree/main/config/eslint-config-frontdemo"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}

@@ -8,7 +8,7 @@
     "prettier": "prettier -w src/*.js",
     "commit": "git add . && lint-staged --allow-empty && git-cz"
   },
-  "prettier": "@isayme/prettier-config",
+  "prettier": "prettier-plugin-frontdemo",
   "config": {
     "commitizen": {
       "path": "@commitlint/cz-commitlint"
@@ -50,7 +50,8 @@
     "eslint-plugin-react": "^7.29.3",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.5",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "prettier-plugin-frontdemo": "^1.0.0"
   },
   "dependencies": {
     "@isayme/prettier-config": "^0.1.1"
